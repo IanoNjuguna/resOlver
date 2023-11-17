@@ -1,5 +1,6 @@
 from turtle import *
 
+speed(0)
 
 def snowflake_side(length, levels):
     if levels == 0:
@@ -17,13 +18,14 @@ def snowflake_side(length, levels):
     snowflake_side(length, levels - 1)
 
 def create_snowflake(sides, length):
-    colors = ["green", "blue", "red", "purple" ]
-    
+    colors = ["green", "blue", "red", "purple", "black", "orange"]
+
     for i in range(sides):
         color(colors[i])
         snowflake_side(length, sides)
         right(360 / sides)
 
-create_snowflake(4, 200)
+left(60)
+create_snowflake(6, 240)
 
 mainloop()
