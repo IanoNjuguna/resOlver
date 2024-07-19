@@ -7,7 +7,7 @@
 
 For more information about the project, how you can be a contributor or set up your IDE, read our [Wiki](https://github.com/IanoNjuguna/resOlver/wiki).
 
-## Get Started
+## Requirements
 
 You need to:
 
